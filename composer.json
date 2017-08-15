@@ -1,0 +1,13 @@
+{
+    "name": "liz/validar_v1.2",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "LizRuelas",
+            "email": "liz.ruelas.borda@gmail.com"
+        }
+    ],
+    "require": {
+      "culqi/culqi-php": "1.2.*"
+    }
+}
