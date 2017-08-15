@@ -24,7 +24,7 @@ try {
       $cargo = $culqi->Cargos->create(
           array(
             "token"=> $_POST["token"],
-            "moneda"=> $_POST["moneda"],
+            "moneda"=> $_POST["moneda1"],
             "monto"=> 100,
             "descripcion"=> "Venta de prueba",
             "pedido"=> $pedidoId,
