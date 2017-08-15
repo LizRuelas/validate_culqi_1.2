@@ -6,7 +6,9 @@
 
 try {
       // Usando Composer (o puedes incluir las dependencias manualmente)
-      require '../vendor/autoload.php';
+      require '../Requests-master/library/Requests.php';
+      Requests::register_autoloader();
+      require '../lib/culqi.php';
 
 
       // Configurar tu API Key y autenticación
