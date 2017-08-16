@@ -23,7 +23,7 @@ class Client
             $headers= array("Authorization" => "Bearer ".$api_key, "Content-Type" => "application/json", "Accept" => "application/json");
 
             $options = array(
-                'timeout' => 180
+                'timeout' => 240
             );
 
             if($method == "GET") {
