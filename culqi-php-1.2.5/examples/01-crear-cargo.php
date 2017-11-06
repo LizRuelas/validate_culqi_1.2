@@ -16,7 +16,7 @@ try {
       $culqi = new Culqi\Culqi(array('api_key' => $SECRET_API_KEY));
 
       // Entorno: Integración (pruebas)
-      $culqi->setEnv("INTEG");
+      $culqi->setEnv("PRODUC");
 
       $pedidoId = time();
 
