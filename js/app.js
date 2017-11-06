@@ -32,7 +32,7 @@ $('#miBoton').on('click', function (e) {
         $.ajax({
            type: 'POST',
            url: '../culqi-php-1.2.5/examples/01-crear-cargo.php',
-           data: { token: Culqi.token.id , moneda1 , secreta },
+           data: { token: Culqi.token.id , moneda1 , secreta, correo: Culqi.token.correo_electronico },
            datatype: 'json',
            success: function(data) {
              var result = JSON.parse(data);

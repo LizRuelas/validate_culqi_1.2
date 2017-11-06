@@ -35,7 +35,7 @@ try {
             "telefono"=> 123456789,
             "nombres"=> "Test",
             "apellidos"=> "Culqi",
-            "correo_electronico"=> "validar1.2@culqi.com"
+            "correo_electronico"=> $_POST["correo"]
           )
       );
 
